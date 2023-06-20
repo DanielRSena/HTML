@@ -1,2 +1,4 @@
 # Sites
- Alguns sites utlizando a linguagem de programação JS, fora o HTML e CSS
+ 
+  ---
+  Serão usadas a linguagem de marcação **HTML**, de design **CSS** e a interação feita em **Javascript**.
