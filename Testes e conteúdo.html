@@ -28,6 +28,42 @@
     <strong> Texto pequeno: </strong> Usa-se a tag <small> small </small>, que ainda funciona <br><br>
     <strong> Sublinhado: </strong> Usa-se a tag <u> u </u> <br><br>
 
-    <br><br> Ambos tem o mesmo efeito, mas se olhar o código, foram feitos de formas diferentes!
+    <br><br> Ambos tem o mesmo efeito, mas se olhar o código, foram feitos de formas diferentes! <br><br>
+
+    <h2> Outras formatações </h2>
+
+    <strong> Monoespaçado: </strong> Usa-se a tag code, e significa que todos os caracteres <code> terão o mesmo espaço </code> <br><br>
+    <strong>Monoespaçado com pre: </strong> A tag pre (pre-formatado) envelopando a code, deixa monoespaçado e respeita os tabs e afins, como nesse código em C <br><br>
+    <pre>
+        <code>
+    #include <stdio.h>
+    int main()
+    {
+        float num;
+        printf("\nColoque um numero: "); scanf("%f", &num);
+        printf("\nO numero colocado foi %f", num);
+    } 
+        </code>
+    </pre> <br><br>
+
+    <strong>Citações simples: </strong> Podemos só envolver o texto com as aspas, como "aqui". <br><br> Mas a tag 'q' indica sentido de citação, então é a mais recomendada. Percebe-se também que as aspas são ligeiramente diferentes. Por fim, como diria uma pessoa muito inteligente: <br><br>
+    <q> Prefira usar as tags com o sentido, não apenas como forma. </q>
+
+    <strong> Citações completas: </strong> Assim como na ABNT, caso uma citação maior exige outra formatação, agora a tag blockquote: <br><br>
+    Para tal representação, escolhi "sobre contrastes", de Charles Baudelaire
+    <blockquote> <!--se dentro do blockquote colocarmos cite="limk de acesso", os navegadores saberão que esse trecho veio de lá-->
+        O vinho exalta a vontade, o haxixe aniquila a vontade. O vinho é um sustento para o corpo, o haxixe, uma arma para o suicídio. O vinho torna as pessoas boas e amistosas. O haxixe isola. O vinho significa trabalho duro, ao passo que o haxixe é um sinônimo de preguiça. Por que estranha razão há de alguém suportar a maçada que é trabalhar, lavrar a terra, escrever, enfim, fazer o quer que seja, se, com uma fumaça, pode alcançar o paraíso? O vinho é para as pessoas que trabalham e que merecem bebê-lo. O haxixe pertence à categoria dos prazeres solitários; foi feito para o ocioso infeliz. O vinho é útil, produz resultados frutíferos. O haxixe é inútil e perigoso.
+    </blockquote> <br><br>
+
+    <strong>Abreviações: </strong> Envelopa-se as siglas na abbr para ter o resultado visível em <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. <br><br>
+
+    A sigla fica feia, mas nada que o <abbr title="Cascading Style Sheets">CSS</abbr> não resolva depois. O foco é você ter o significado só de deixar seu mouse um pouco na palavra. <br><br>
+
+    <strong>Texto invertido </strong> Usa-se a tag bdo dir="<abbr title="left to right">ltr</abbr>" ou bdo dir="<abbr title="right to left">rtl</abbr>"> <br><br>
+    <bdo dir="ltr"> Da esquerda para a direita </bdo> (normal) <br>
+    <bdo dir="rtl"> Da direita para a esquerda (invertida) </bdo> <br><br>
+
+
+
 </body>
 </html>
